@@ -5,15 +5,16 @@
     <item android:title="Item"
         android:id="@+id/add_item"
         app:showAsAction="always"
-        android:icon="@mipmap/ic_launcher" />
+        android:icon="@drawable/ic_add" />
+
     <item android:title="Like"
         android:id="@+id/item_like"
-        android:icon="@android:drawable/btn_star_big_on"
+        android:icon="@drawable/ic_like"
         android:visible="true"
-   />
+        android:showAsAction="always" />
     <item android:title="Dislike"
         android:id="@+id/dis_like_item"
-        android:icon="@android:drawable/ic_delete"
+        android:icon="@drawable/ic_dis_like"
 
-          />
+        />
 </menu>
